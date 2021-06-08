@@ -6,7 +6,7 @@ class Solution:
         n = len(nums)
         for i in range(0,n) :
             hash_mp[nums[i]] = i
-        for i in range(0,n-2) :              #      x = nums[i]
+        for i in range(0,n-2) :              # x = nums[i]
             target = -1*nums[i]              # target = -1 * x
             for j in range(i+1 ,n):          # target =  y + z
                 y = nums[j]
